@@ -1,6 +1,9 @@
 <template>
   <div>
-    DO the links works yet?
+    <nav>
+      <NuxtLink to="/">Home</NuxtLink>
+      <NuxtLink to="/collections">Collections</NuxtLink>
+    </nav>
   </div>
 </template>
 

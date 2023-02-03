@@ -1,31 +1,24 @@
 <template>
-  <div>
-
-    <header>
-      <!-- navbar -->
-    </header>
-
-    <div>
-      <slot />
-    </div>
-
-  </div>
+  <main>
+    <slot />
+  </main>
 </template>
 
 <script>
+
+
 export default {
   setup() {
+    return {};
+  },
 
-
-    return {
-
-    }
-  }
 }
 </script>
 
 <style scoped>
-
+.router-link-exact-active {
+  color: aquamarine;
+}
 </style>
 
 

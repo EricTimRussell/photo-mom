@@ -1,6 +1,6 @@
 <template>
   <div>
-    DO the links works yet?
+    <h2 class="text-2xl">Collections page</h2>
   </div>
 </template>
 
@@ -9,7 +9,9 @@ export default {
   setup() {
 
 
-    return {}
+    return {
+
+    }
   }
 }
 </script>
