@@ -1,8 +1,5 @@
 <template>
   <div>
-    <Navbar />
-  </div>
-  <div>
     <NuxtLayout>
       <NuxtPage />
     </NuxtLayout>
@@ -10,14 +7,14 @@
 </template>
 
 <script>
-import Navbar from "~~/components/Navbar.vue";
+
 export default {
   setup() {
 
 
     return {}
   },
-  components: { Navbar }
+
 }
 </script>
 

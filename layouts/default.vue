@@ -1,4 +1,7 @@
 <template>
+  <header>
+    <Navbar />
+  </header>
   <main>
     <slot />
   </main>
@@ -6,19 +9,17 @@
 
 <script>
 
-
+import Navbar from "~~/components/Navbar.vue";
 export default {
   setup() {
     return {};
   },
-
+  components: { Navbar }
 }
 </script>
 
 <style scoped>
-.router-link-exact-active {
-  color: aquamarine;
-}
+
 </style>
 
 
