@@ -8,12 +8,15 @@
 </template>
 
 <script>
-
 import Navbar from "~~/components/Navbar.vue";
+
 export default {
   setup() {
-    return {};
+    return {
+
+    };
   },
+
   components: { Navbar }
 }
 </script>
