@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-slate-500">
+  <div class="bg-indigo-50 shadow-xl">
     <nav class="grid grid-cols-6 content-center h-20">
       <div class="col-start-2">
         <NuxtLink to="/">
